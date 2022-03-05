@@ -1,0 +1,21 @@
+@import './styles/layout';
+
+:root{
+    --bg:#10121B;
+    --sidebar: #191D2B;
+    --main-blue-color: #037FFF;
+    --main-border-color: #2e344e;
+    --font-color: #a4acc4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--font-color);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.2rem;
+}
