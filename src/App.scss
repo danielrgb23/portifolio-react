@@ -1,4 +1,6 @@
 @import './styles/layout';
+//@ts-ignore
+@import './styles/navbar';
 
 :root{
     --bg:#10121B;
@@ -17,5 +19,5 @@
 body{
     color: var(--font-color);
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 0.2rem;
+    font-size: 1.2rem;
 }
