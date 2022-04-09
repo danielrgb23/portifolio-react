@@ -1,6 +1,6 @@
 import React from 'react';
 //@ts-ignore
-import avatar from '../img/avatar.png';
+import avatar from '../img/avatar.jpg';
 //@ts-ignore
 import { NavLink } from 'react-router-dom';
 
@@ -13,27 +13,27 @@ function Navbar() {
                 </div>
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <NavLink to="/" exact actionClassName="active">
+                        <NavLink to="/" exact activeClassName="active">
                             Home
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/About" exact actionClassName="active">
+                        <NavLink to="/About" exact activeClassName="active">
                             About
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/Portifolios" exact actionClassName="active">
+                        <NavLink to="/Portifolios" exact activeClassName="active">
                             Portifolios
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/Blogs" exact actionClassName="active">
+                        <NavLink to="/Blogs" exact activeClassName="active">
                             Blogs
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/Contact" exact actionClassName="active">
+                        <NavLink to="/Contact" exact activeClassName="active">
                             Contact
                         </NavLink>
                     </li>
