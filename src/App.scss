@@ -1,5 +1,6 @@
 @import './styles/layout';
 @import './styles/typography';
+@import './styles/title';
 //@ts-ignore
 @import './styles/navbar';
 
@@ -21,4 +22,8 @@ body{
     color: var(--font-color);
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2rem;
+}
+
+span{
+    color: var(--main-blue-color);
 }

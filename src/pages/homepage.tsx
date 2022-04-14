@@ -1,5 +1,7 @@
 import React from 'react';
-import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 
@@ -16,7 +18,16 @@ function HomePage() {
                     cupiditate facere, numquam vitae placerat
                 </p>
                 <div className="icons">
-                        <FontAwesomeIcon icon={faFacebook} />
+                        <Link to={undefined} className="icon-holder">
+                        <FontAwesomeIcon icon={faInstagram} className="icon it" />
+                        </Link>
+                        <Link to={undefined} className="icon-holder">
+                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
+                        </Link>
+                        <Link to={undefined} className="icon-holder">
+                        <FontAwesomeIcon icon={faLinkedin} className="icon lk" />
+                        </Link>
+
                 </div>
             </header>
         </div>
